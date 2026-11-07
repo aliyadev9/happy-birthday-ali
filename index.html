@@ -6,35 +6,40 @@
 <title>Happy Birthday My Brother Ali Haider</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#EDE9FE;color:#111;padding:28px 0}
+body{font-family:Georgia,'Times New Roman',serif;background:linear-gradient(180deg,#F9A8D4 0%,#FBCFE8 30%,#E9D5FF 60%,#FCE7F3 100%);color:#111;padding:28px 0;font-style:italic;min-height:100vh}
 .hidden{display:none!important}
 .wrap{max-width:360px;margin:0 auto;padding:0 22px}
 .screen{min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px 0}
-.card{background:#fff;border-radius:22px;padding:28px 20px;width:100%;border:1px solid #E5E5E5;margin:16px 0}
-h1{font-size:28px;line-height:1.35;color:#111}
-h1 span{color:#6B2E3A}
-.wish{font-size:16px;line-height:1.8;color:#111;margin-top:10px}
-.sub{font-size:13px;color:#666;margin-top:8px}
-.btn{display:block;width:100%;background:#7C6AAE;color:#fff;border:none;padding:16px;border-radius:14px;font-size:17px;font-weight:700;cursor:pointer;margin-top:18px}
-.btn-pink{background:#9A5A6E}
-.btn-blue{background:#5B7FB8}
-.btn-dark{background:#333}
+.card{background:rgba(255,255,255,0.35);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:26px;padding:28px 20px;width:100%;border:1px solid rgba(255,255,255,0.75);box-shadow:0 10px 30px rgba(190,24,93,0.15)}
+h1{font-size:30px;line-height:1.35;color:#FFFFFF;text-shadow:0 2px 10px rgba(122,59,78,0.35);font-style:italic}
+h1 span{color:#7A3B4E}
+.wish{font-size:17px;line-height:1.9;color:#111;margin-top:10px;font-style:italic}
+.wish.silver{color:#52525B}
+.sub{font-size:13px;color:#E4E4E7;margin-top:8px;font-style:italic}
+.btn{display:block;width:100%;background:#A78BFA;color:#fff;border:none;padding:16px;border-radius:14px;font-size:17px;font-weight:700;cursor:pointer;margin-top:18px;font-family:Georgia,serif;font-style:italic;box-shadow:0 4px 14px rgba(0,0,0,0.10)}
+.btn-pink{background:#C08497}
+.btn-blue{background:#7BA7C7}
+.btn-gold{background:#C9A86A}
+.btn-burg{background:#7A3B4E}
+.btn-dark{background:#3F3F46}
 .btn:active{opacity:.85}
-.cakeimg{width:100%;border-radius:16px;margin:16px 0;background:#FFF9F2}
+.cakeimg{width:100%;border-radius:18px;margin:16px 0;background:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.9)}
 .dots{display:flex;gap:10px;justify-content:center;margin:16px 0}
-.dot{width:16px;height:16px;border-radius:50%;border:2px solid #7C6AAE;background:#fff}
-.dot.fill{background:#7C6AAE}
+.dot{width:16px;height:16px;border-radius:50%;border:2px solid #fff;background:rgba(255,255,255,0.4)}
+.dot.fill{background:#7A3B4E}
 .pad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:250px;margin:10px auto 0}
-.key{background:#F4F4F5;border:1px solid #DDD;border-radius:12px;padding:16px 0;font-size:19px;font-weight:700;color:#111;cursor:pointer}
-.key:active{background:#EDE9FE}
-.envbox{background:#FFF9F2;border:1px solid #E8D5C5;border-radius:12px;padding:18px;margin:14px 0;min-height:180px;font-size:16px;line-height:1.8;color:#111;text-align:center}
-.pic{background:#fff;border-radius:18px;padding:14px;margin:14px 0;width:100%;border:1px solid #E5E5E5}
-.pic img{width:100%;height:320px;object-fit:cover;border-radius:12px;background:#eee}
-.pic .q{font-size:18px;line-height:1.7;color:#111;padding:10px}
+.key{background:rgba(255,255,255,0.85);border:1px solid #E4E4E7;border-radius:12px;padding:16px 0;font-size:19px;font-weight:700;color:#111;cursor:pointer;font-family:Georgia,serif}
+.key:active{background:#FCE7F3}
+.envbox{background:rgba(255,255,255,0.55);border:1px solid rgba(255,255,255,0.9);border-radius:16px;padding:20px;margin:14px 0;min-height:210px;font-size:17px;line-height:2;color:#111;text-align:center;font-style:italic}
+.pic{background:rgba(255,255,255,0.45);backdrop-filter:blur(12px);border-radius:20px;padding:14px;margin:14px 0;width:100%;border:1px solid rgba(255,255,255,0.85)}
+.pic img{width:100%;height:320px;object-fit:cover;border-radius:14px;background:#eee}
+.pic .q{font-size:19px;line-height:1.9;color:#111;padding:10px;font-style:italic}
 video{width:100%;border-radius:12px;background:#000;margin-top:12px}
-.giftbox{width:180px;height:120px;background:#F3EEFF;border-radius:14px;margin:16px auto;display:flex;align-items:center;justify-content:center;font-size:56px;cursor:pointer;border:1px solid #DDD}
+.giftbox{width:180px;height:120px;background:rgba(255,255,255,0.7);border-radius:14px;margin:16px auto;display:flex;align-items:center;justify-content:center;font-size:56px;cursor:pointer;border:1px solid #F9A8D4;animation:giftBounce 1.2s infinite}
+@keyframes giftBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 .monkey{font-size:90px;display:none}
-.monkey.show{display:block}
+.monkey.show{display:block;animation:monkeyDance 0.8s infinite}
+@keyframes monkeyDance{0%,100%{transform:rotate(-8deg) translateY(0)}25%{transform:rotate(8deg) translateY(-12px)}50%{transform:rotate(-8deg) translateY(0)}75%{transform:rotate(8deg) translateY(-8px)}}
 .teddy{width:150px;height:170px;margin:10px auto 6px;position:relative}
 .t-ear{width:34px;height:34px;background:#B07B4F;border-radius:50%;position:absolute;top:0}
 .t-ear.l{left:12px}.t-ear.r{right:12px}
@@ -51,27 +56,26 @@ video{width:100%;border-radius:12px;background:#000;margin-top:12px}
 </head>
 <body>
 <div class="wrap">
-<div class="screen" id="s1"><div class="card"><p style="font-size:12px;letter-spacing:2px;color:#6B2E3A;font-weight:700">9TH NOVEMBER</p><h1 style="margin-top:8px">Happy Birthday<br>My Brother<br><span>Ali Haider</span></h1><img src="IMG-20261107-WA4255.jpg" class="cakeimg"><p class="wish" id="blowTxt"><b>Realistic Chocolate Cake</b><br>Tap button to blow candles</p><button class="btn btn-pink" onclick="blow()">Blow Candles 💨</button><p class="wish"><b>Happy Birthday, my favourite person.</b><br>Wishing you good health, happiness and success in everything you do.</p><button class="btn" onclick="go('s2')">Next 💌</button></div></div>
-<div class="screen hidden" id="s2"><div class="card"><div style="font-size:44px">💌</div><h1>Love Letter <span>For You</span></h1><p class="wish">Letter khud likha ja raha hai...</p><div class="envbox"><span id="envTxt"></span><span id="cursor">|</span></div><button class="btn btn-pink hidden" id="envNext" onclick="go('s3')">Teddy 🧸</button></div></div>
-<div class="screen hidden" id="s3"><div class="card"><div class="teddy"><div class="t-ear l"><div class="t-ear-in"></div></div><div class="t-ear r"><div class="t-ear-in"></div></div><div class="t-head"><div class="t-eye l"></div><div class="t-eye r"></div><div class="t-muzzle"><div class="t-nose"></div><div class="t-mouth"></div></div></div><div class="t-body"><div class="t-belly"></div></div></div><h1>Teddy <span>Lock</span></h1><p class="wish">Enter Your Code</p><div class="dots" id="dots1"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div><div class="pad" id="pad1"></div><p class="sub" id="err1" style="color:red"></p></div></div>
-<div class="screen hidden" id="s4"><div class="card"><div style="font-size:56px">🎂</div><h1>Happy Birthday<br>My <span>Brother Ali Haider</span></h1><p class="wish"><b>You are my most special person.</b><br>Today is all about you. Stay blessed, stay happy, stay smiling.</p><button class="btn btn-blue" onclick="go('s5')">Next Wish</button></div></div>
-<div class="screen hidden" id="s5"><div class="card"><h1>For You, <span>Ali Haider</span></h1><p class="wish">Some moments never fade.<br>Some people never leave the heart.<br><br><b>Stay blessed. Stay smiling. Stay mine.</b></p><button class="btn btn-pink" onclick="go('s6')">Picture Book 📖</button></div></div>
-<div class="screen hidden" id="s6"><h1 style="color:#111;margin-bottom:10px">Picture Book 📖</h1><div class="pic"><img src="IMG_20261107_172945_234.png"><p class="wish"><b>Our Hero on Bike.</b></p></div><div class="pic"><div class="q"><b>Some people are not just a part of life,</b> they become the reason to smile.<br><br><b>Happy Birthday My Brother Ali Haider.</b></div></div><div class="pic"><img src="IMG_20261107_173209_123.jpg"><p class="wish"><b>Handsome as always.</b></p></div><div class="pic"><div class="q"><b>Your smile is my favourite view.</b> Your happiness is my favourite wish.<br><br>Stay blessed always, Ali.</div></div><div class="pic"><img src="IMG_20261107_180053_354.jpg"><p class="wish"><b>New Memory - Special One.</b></p></div><div class="pic"><div class="q">This picture is my favourite, because <b>you are in it.</b><br><br><b>Happy Birthday Bander 😂</b></div></div><button class="btn" onclick="go('s7')">Watch Videos 🎬</button></div>
-<div class="screen hidden" id="s7"><div class="card"><h1>Video <span>1</span></h1><p class="wish">A silent moment - just you.</p><video controls playsinline src="VID-20261107-WA0016.mp4"></video><button class="btn btn-blue" onclick="go('s8')">Next Video</button></div></div>
-<div class="screen hidden" id="s8"><div class="card"><h1>Video <span>2 - Hero Entry</span></h1><p class="wish">Black Suit + Bow Tie - Full Hero Vibes.</p><video controls playsinline src="VID-20261107-WA0017.mp4"></video><button class="btn" onclick="go('s9')">Next Video</button></div></div>
-<div class="screen hidden" id="s9"><div class="card"><h1>Video <span>3 - Drive</span></h1><p class="wish">White Shirt, Car Driving - My Favourite.</p><video controls playsinline src="VID-20261107-WA0018.mp4"></video><button class="btn btn-pink" onclick="go('s10')">Gift Box 🎁</button></div></div>
-<div class="screen hidden" id="s10"><div class="card"><div style="font-size:80px">🎁</div><h1>Gift <span>Box Surprise</span></h1><p class="wish">Enter Your Code</p><div class="dots" id="dots2"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div><div class="pad" id="pad2"></div><p class="sub" id="err2" style="color:red"></p></div></div>
-<div class="screen hidden" id="s11"><div class="card"><h1>Happy Birthday <span>Bander 😂</span></h1><div class="monkey" id="monkey">🐵</div><div class="giftbox" id="gift" onclick="openGift()">🎁</div><p class="wish" id="monkeyTxt"><b>Happy Birthday My Brother Ali Haider!</b><br>Tap gift box to open surprise.</p><p class="wish">Monkey says - You are the best! 🍌<br><br><b>Love you always, Your Brother.</b></p><button class="btn btn-dark" onclick="go('s1')">Back to Start ↑</button></div></div>
+<div class="screen" id="s1"><div class="card"><p style="font-size:12px;letter-spacing:2px;color:#fff;font-weight:700;text-shadow:0 1px 6px rgba(0,0,0,0.2)">✨ 9TH NOVEMBER ✨</p><h1 style="margin-top:8px">Happy Birthday<br>My Brother<br><span>Ali Haider 🎂💜</span></h1><img src="IMG-20261107-WA4255.jpg" class="cakeimg"><p class="wish"><b>Happy Birthday, my favourite person. 💜</b><br><span class="wish silver">Wishing you good health, happiness and success in everything you do. ✨🎉</span></p><button class="btn" onclick="go('s2')">Next 💌</button></div></div>
+<div class="screen hidden" id="s2"><div class="card"><div style="font-size:44px">💌✨</div><h1>Special Letter <span>For My Bhai 💜</span></h1><p class="wish silver">Letter khud likha ja raha hai... ✨</p><div class="envbox"><span id="envTxt"></span><span id="cursor">|</span></div><button class="btn btn-pink hidden" id="envNext" onclick="go('s3')">Teddy 🧸💜</button></div></div>
+<div class="screen hidden" id="s3"><div class="card"><div class="teddy"><div class="t-ear l"><div class="t-ear-in"></div></div><div class="t-ear r"><div class="t-ear-in"></div></div><div class="t-head"><div class="t-eye l"></div><div class="t-eye r"></div><div class="t-muzzle"><div class="t-nose"></div><div class="t-mouth"></div></div></div><div class="t-body"><div class="t-belly"></div></div></div><h1>Teddy <span>Lock 🧸</span></h1><p class="wish">Enter Your Code 🔐</p><div class="dots" id="dots1"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div><div class="pad" id="pad1"></div><p class="sub" id="err1" style="color:#fff"></p></div></div>
+<div class="screen hidden" id="s4"><div class="card"><div style="font-size:56px">🎂💜</div><h1>Happy Birthday<br>My <span>Brother Ali Haider ✨</span></h1><p class="wish"><b>You are my most special person. 💜</b><br><span class="wish silver">Today is all about you. Stay blessed, stay happy, stay smiling. 😊✨</span></p><button class="btn btn-blue" onclick="go('s5')">Next Wish ✨</button></div></div>
+<div class="screen hidden" id="s5"><div class="card"><h1>For You, <span>Ali Haider 💜</span></h1><p class="wish">Some moments never fade. ✨<br><span class="wish silver">Some people never leave the heart. 💜</span><br><br><b>Stay blessed. Stay smiling. Stay mine, my Bhai. 🫂✨</b></p><button class="btn btn-gold" onclick="go('s6')">Picture Book 📖💜</button></div></div>
+<div class="screen hidden" id="s6"><h1 style="color:#fff;margin-bottom:10px;text-shadow:0 2px 10px rgba(0,0,0,0.25)">Picture Book 📖✨</h1><div class="pic"><img src="IMG_20261107_172945_234.png"><p class="wish"><b>Our Hero on Bike. 🏍️💜</b></p></div><div class="pic"><div class="q"><b>Some people are not just a part of life,</b> they become the reason to smile. 😊<br><br><b>Happy Birthday My Brother Ali Haider. 🎂💜</b></div></div><div class="pic"><img src="IMG_20261107_173209_123.jpg"><p class="wish"><b>Handsome as always. 😎✨</b></p></div><div class="pic"><div class="q"><b>Your smile is my favourite view. 😊</b> Your happiness is my favourite wish. ✨<br><br>Stay blessed always, Ali. 💜</div></div><div class="pic"><img src="IMG_20261107_180053_354.jpg"><p class="wish"><b>New Memory - Special One. 📸💜</b></p></div><div class="pic"><div class="q">This picture is my favourite, because <b>you are in it. ✨</b><br><br><b>Happy Birthday Bander 😂🐵</b></div></div><button class="btn btn-burg" onclick="go('s7')">Watch Videos 🎬✨</button></div>
+<div class="screen hidden" id="s7"><div class="card"><h1>Video <span>1 🎬</span></h1><p class="wish">A silent moment - just you. ✨</p><video controls playsinline src="VID-20261107-WA0016.mp4"></video><button class="btn btn-blue" onclick="go('s8')">Next Video ➡️</button></div></div>
+<div class="screen hidden" id="s8"><div class="card"><h1>Video <span>2 - Hero Entry 😎</span></h1><p class="wish">Black Suit + Bow Tie - Full Hero Vibes. ✨🔥</p><video controls playsinline src="VID-20261107-WA0017.mp4"></video><button class="btn btn-pink" onclick="go('s9')">Next Video ➡️</button></div></div>
+<div class="screen hidden" id="s9"><div class="card"><h1>Video <span>3 - Drive 🚗</span></h1><p class="wish">White Shirt, Car Driving - My Favourite. ✨💜</p><video controls playsinline src="VID-20261107-WA0018.mp4"></video><button class="btn btn-gold" onclick="go('s10')">Gift Box 🎁✨</button></div></div>
+<div class="screen hidden" id="s10"><div class="card"><div style="font-size:80px">🎁💜</div><h1>Gift <span>Box Surprise 🎁</span></h1><p class="wish">Enter Your Code 🔐</p><div class="dots" id="dots2"><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div><div class="pad" id="pad2"></div><p class="sub" id="err2" style="color:#fff"></p></div></div>
+<div class="screen hidden" id="s11"><div class="card"><h1>Happy Birthday <span>Bander 😂</span></h1><div class="monkey" id="monkey">🐵</div><div class="giftbox" id="gift" onclick="openGift()">🎁</div><p class="wish" id="monkeyTxt"><b>Happy Birthday My Brother Ali Haider! 🎂💜</b><br>Tap gift box to open surprise. 🎁✨</p><p class="wish">Monkey says - You are the best! 😂🐵<br><br><b>Always with you, Your Bhai. 🫂💜</b></p><button class="btn btn-dark" onclick="go('s1')">Back to Start ↑</button></div></div>
 </div>
 <script>
-var letterText="Dear Ali Haider, Wishing you joy, laughter and an amazing year ahead. You are valued, loved and celebrated. Happy 9th Nov! May every wish come true. Stay blessed, stay smiling. Happy Birthday My Brother!";
+var letterText="Dear Ali Haider 💜, Wishing you joy, laughter and an amazing year ahead ✨🎂. You are my proud, my strength, my Bhai 🫂. Happy 9th Nov! May every wish come true ✨. Stay blessed, stay smiling 😊. Happy Birthday My Brother! 🎉💜";
 var typed=false;
 function go(id){document.querySelectorAll('.screen').forEach(function(s){s.classList.add('hidden')});document.getElementById(id).classList.remove('hidden');window.scrollTo(0,0);if(id==='s2' && !typed){typed=true;startTyping();}}
 function startTyping(){var i=0;var el=document.getElementById('envTxt');el.innerHTML='';var timer=setInterval(function(){if(i<letterText.length){el.innerHTML+=letterText.charAt(i);i++;}else{clearInterval(timer);document.getElementById('cursor').style.display='none';document.getElementById('envNext').classList.remove('hidden');}},35);}
-function blow(){document.getElementById('blowTxt').innerHTML='<b>Candles off! Make a wish ✨</b>'}
 function makePad(padId,dotsId,errId,next){var pad=document.getElementById(padId);var code='';['1','2','3','4','5','6','7','8','9','C','0','⌫'].forEach(function(k){var b=document.createElement('button');b.className='key';b.textContent=k;b.onclick=function(){if(k==='C')code='';else if(k==='⌫')code=code.slice(0,-1);else if(code.length<4)code+=k;var dots=document.querySelectorAll('#'+dotsId+' .dot');dots.forEach(function(d,i){d.classList.toggle('fill',i<code.length)});if(code.length===4){if(code==='0911'){go(next)}else{document.getElementById(errId).textContent='Wrong code. Try again';code='';setTimeout(function(){document.getElementById(errId).textContent='';dots.forEach(function(d){d.classList.remove('fill')})},1000)}}};pad.appendChild(b)})}
 makePad('pad1','dots1','err1','s4');makePad('pad2','dots2','err2','s11');
-function openGift(){document.getElementById('gift').style.display='none';document.getElementById('monkey').classList.add('show');document.getElementById('monkeyTxt').innerHTML='<b>Bander aa gaya! 😂🐵</b><br><b>Happy Birthday My Brother Ali Haider!</b>'}
+function openGift(){document.getElementById('gift').style.display='none';document.getElementById('monkey').classList.add('show');document.getElementById('monkeyTxt').innerHTML='<b>Bander aa gaya! 😂🐵</b><br><b>Happy Birthday My Brother Ali Haider! 🎂💜</b>'}
 </script>
 </body>
-</html>
+  </html>
